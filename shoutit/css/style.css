@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+body {
+  font-size:16px;
+}
+.btn-modal {
+  background-color:#C63D0F;
+  color:#FDF3E7;
+}
+#shoutbox {
+  background-color:#C63D0F;
+  height:85vh;
+  margin-top:2vh;
+  border-radius:45px;
+  color:#FDF3E7;
+  overflow:auto;
+}
+#header {
+  border-bottom: 2px solid #FDF3E7;
+}
+#header h1 {
+  margin:auto;
+  line-height:5rem;
+  font-size:3rem;
+  font-family: 'Kaushan Script', cursive;
+}
+.modal-header h5 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2rem;
+}
+#shouts {
+  width:90%;
+  height:50vh;
+  margin:20px auto;
+  overflow:auto;
+}
+ul {
+  padding:0;
+}
+.shout {
+  list-style:none;
+  padding:8px;
+  border-bottom:1px dotted #FDF3E7;
+}
+#form {
+  width:90%;
+  margin:auto;
+}
+.shout-it {
+  color:#FDF3E7;
+  background-color:#3B3738;
+  cursor:pointer;
+}
+/* Footer */
+footer {
+  font-size: 85%;
+  padding: 3vh 0;
+  text-align:left;
+}
+footer a {
+  color:#C63D0F;
+}
+footer a:hover, footer a.active {
+  color:#3B3738;
+  text-decoration:none;
+}
+
+footer i {
+  padding: 5px;
+}
+.social {
+  float:right;
+}
