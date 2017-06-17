@@ -1,0 +1,19 @@
+.logo {
+  float:left;
+}
+.readmore {
+  display:block;
+  text-align:center;
+  padding:5px;
+  background: #777BB3;
+  margin:10px 0;
+  color:white;
+}
+.readmore:hover {
+  text-decoration:none;
+  color:black;
+}
+.right-link {
+  position: absolute;
+  right: 0;
+}
